@@ -42,9 +42,9 @@ export default class Clock extends React.Component<ClockProps, ClockState> {
   render() {
     // https://en.wikipedia.org/wiki/Clock_angle_problem
     // at 5:24
-    // hour hand degree = (60x5+24) x 0.5 = 162 degree
-    // minute hand degree = (6 x 24) = 144 degree
-    // minute hand movement is smooth if seconds hand is visible
+    // hours hand degree = (60x5+24) x 0.5 = 162 degree
+    // minutes hand degree = (6 x 24) = 144 degree
+    // minutes hand movement is smooth if seconds hand is visible
     const hoursHandRotation =
       (60 * this.state.date.getHours() + this.state.date.getMinutes()) * 0.5;
 

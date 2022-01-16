@@ -32,6 +32,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm run buildDemo`
 
-Converts analog clock component demonstration inside a demo component to *.js file and embeds into an index.html file
-Outputs them `demo` folder.\
+Converts analog clock component inside a demo component to *.js file and embeds into an index.html file
+Outputs them `/demo` folder.
 

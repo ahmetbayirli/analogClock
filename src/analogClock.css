@@ -32,20 +32,6 @@
     justify-content: center;
     align-items: center;
 }
-.clock-face .numbers-wrapper {
-    position: absolute;
-    width: 90%;
-    height: 88%;
-    top: 6%;
-    left: 5%;
-    z-index: 1;
-}
-.clock-face .numbers-wrapper .numbers-light {
-    fill: white;
-}
-.clock-face .numbers-wrapper .numbers-dark {
-    fill: black;
-}
 .clock-face .hands {
     border-radius: 10px;
     transform-origin: bottom;

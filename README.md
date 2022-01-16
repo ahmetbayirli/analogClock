@@ -16,6 +16,15 @@ The clock face would paint with a light (white) background if the time is betwee
 
 Create a simple web page index.html that would reference the component and render it.   show a checkbox to set the secondsHandsVisible to turn on the red seconds hand on/off.
 
+### `npm`
+
+For NodeJS Package Manager (npm) installation go to: 
+https://nodejs.org/en/download/ 
+
+### `npm install`
+
+to install dependencies after first checkout
+
 ### `npm start`
 
 Runs the app in the development mode.\

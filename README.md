@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# Analog Clock Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requirements:
 
-## Available Scripts
+Create a UI component to display an analog clock similar to the above screen shot, using any of the common JavaScript frameworks such as ReactJS, VueJS or angular.
 
-In the project directory, you can run:
+Use latest EcmaScript or Typescript.
+
+Use SVG or Canvas to render the clock face.
+
+The component should have a property to optionally show or hide the seconds hand – secondsHandVisible = true | false.
+
+The clock should update every second if the seconds hand is visible, or every minute if the seconds hand is not visible.
+
+The clock face would paint with a light (white) background if the time is between 8AM – 5PM
+
+Create a simple web page index.html that would reference the component and render it.   show a checkbox to set the secondsHandsVisible to turn on the red seconds hand on/off.
 
 ### `npm start`
 
@@ -19,28 +29,8 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run buildDemo`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Converts analog clock component demonstration inside a demo component to *.js file and embeds into an index.html file
+Outputs them `demo` folder.\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
